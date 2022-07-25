@@ -267,6 +267,10 @@ section.landing .profile-area .outer-circle span:nth-child(4) {
 }
 
 section.landing .profile-area .inner-circle {
-    display: none;
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    overflow: hidden;  
 }
 
