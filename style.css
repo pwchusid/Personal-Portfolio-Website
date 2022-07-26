@@ -296,6 +296,10 @@ section.about p {
 section.about .container .read-more-content {
     display: none;
 }
+/* toggle read more content using JS */
+section.about .container .read-more-content.show-content {
+    display:block;
+}
 
 section.about .container .read-more {
     display: block;
