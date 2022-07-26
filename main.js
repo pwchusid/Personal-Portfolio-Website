@@ -57,3 +57,17 @@ readMoreBtn.addEventListener('click', () => {
         readMoreBtn.textContent = "Show more";
     }
 })
+
+// show/hide skills items
+const skillItems = document.querySelectorAll('section.skills .skill');
+
+skillItems.forEach(skill => {
+    skill.querySelector('.head').addEventListener('click', () => {
+        skill.querySelector('.items').classList.toggle('show-items');
+    })
+})
+
+// add box shadow on scroll 
+window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle('show-box-shadow',window.scrollY > 0)
+})
