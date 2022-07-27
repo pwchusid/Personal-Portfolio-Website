@@ -312,7 +312,7 @@ section.about .container .read-more-content {
 }
 /* toggle read more content using JS */
 section.about .container .read-more-content.show-content {
-    display:block;
+    display: block;
 }
 
 section.about .container .read-more {
@@ -462,8 +462,8 @@ section.services .container .service:nth-child(3) span {
 
 section.recent-work h1 {
     text-align: left;
-    margin: 3rem 0 1rem;
-    width: 65%;
+    margin: 1rem 0 1rem;
+    width: 100%;
 }
 
 section.recent-work .projects {
@@ -597,7 +597,7 @@ footer .container .socials {
     gap: 2rem;
 }
 
-footer .container socials a {
+footer .container .socials a {
     background: var(--color-light);
     color: var(--color-dark);
     padding: 0.3rem;
@@ -743,21 +743,21 @@ footer .copyright {
 
     section.landing .profile-area .outer-circle span:nth-child(1) {
         left: calc(50% - 1.5rem);
-        top: -2rem;
+        top: -1.5rem;
     }
     
     section.landing .profile-area .outer-circle span:nth-child(2) {
-        right: -2rem;
+        right: -1.5rem;
         top: calc(50% - 1.5rem);
     }
     
     section.landing .profile-area .outer-circle span:nth-child(3) {
-        left: -2rem;
+        left: -1.5rem;
         top: calc(50% - 1.5rem);
     }
     
     section.landing .profile-area .outer-circle span:nth-child(4) {
-        bottom: -2rem;
+        bottom: -1.5rem;
         left: calc(50% - 1.5rem);
     }
 
