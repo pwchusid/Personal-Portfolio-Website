@@ -1,5 +1,5 @@
-const menuBtn = document.querySelector ('#menu-btn');
-const closeBtn = document.querySelector ('#close-btn');
+const menuBtn = document.querySelector('#menu-btn');
+const closeBtn = document.querySelector('#close-btn');
 const menu = document.querySelector('nav .container ul');
 
 
@@ -59,5 +59,5 @@ skillItems.forEach(skill => {
 
 // add box shadow on scroll 
 window.addEventListener('scroll', () => {
-    document.querySelector('nav').classList.toggle('show-box-shadow',window.scrollY > 0)
+    document.querySelector('nav').classList.toggle('show-box-shadow', window.scrollY > 0)
 })
