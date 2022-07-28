@@ -1,13 +1,3 @@
-//swiper js (testimonial section)
-const swiper = new Swiper(".swiper", {
-    scrollbar: {
-        el: ".swiper-scrollbar",
-        draggable: true,
-    },
-});
-
-
-
 const menuBtn = document.querySelector ('#menu-btn');
 const closeBtn = document.querySelector ('#close-btn');
 const menu = document.querySelector('nav .container ul');
