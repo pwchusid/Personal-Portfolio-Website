@@ -14,13 +14,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Montserrat:wght@300;400;500;600;800&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
 
-
     <!-- ICONSCOUT CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
 
+    <!-- particles.js -->
+    
+
     <!-- SWIPER JS -->
-    <link
-  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="./style.css">
@@ -44,7 +45,7 @@
    <!-- =============== END OF NAVBAR ==================== --> 
 
 
-   <section class="landing">
+   <section class="landing" id="wrap">
         <div class="container"> 
             <div class="socials">
                 <a href="https://facebook.com/peterchusid" target="_blank"><i class="uil uil-facebook-f"></i></a>
@@ -52,9 +53,9 @@
                 <a href="https://www.linkedin.com/in/peter-chusid-927156b4/" target="_blank"><i class="uil uil-linkedin"></i></a>
             </div>    
 
-        <div class="info">
-            <h1>Frontend Web Developer</h1>
-            <h3>Hi, I'm Poopypoopy</h3>
+        <div class="info" id="particles-js">
+            <h1>Hi, I'm <b class="highlight">P</b>eter Chusid, Frontend Web Developer</h1>
+        
             <a href="#about" class="btn btn-primary">Enter</a>
         </div>
 
@@ -66,7 +67,7 @@
                 <span class="material-icons-sharp">design_services</span>
             </div>
             <div class="inner-circle">
-                <img src="./10_coding_dribbble-1912030752" alt="">
+                <img src="./Images/happy-hacker.gif" alt="">
             </div>
         </div>
         
@@ -266,11 +267,17 @@
 </footer>
 
 
-<!-- JavaScript -->
+
 
 
 </body>
-
+<!-- JavaScript -->
 <script src="./main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
+<script>
+  particlesJS.load('particles-js', 'particles.json', function(){
+    console.log('particles.json loaded...');
+  });
+</script>
 </html>
