@@ -224,8 +224,11 @@ section.landing .socials a:hover {
     animation: effect linear 2s;
 }
 
-.highlight {
-    color: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+#highlight {
+    font-size: 72px;
+    background: -webkit-linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @keyframes effect {
