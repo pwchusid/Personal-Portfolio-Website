@@ -172,6 +172,21 @@ nav .container ul li a.active {
 }
 
 /* =============== LANDING SECTION =============== */
+#highlight {
+    font-size: 72px;
+    background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#particles-js {
+    overflow: hidden;
+    background:rgba(0, 0, 0, 0.7);
+    border: 10px solid rgb(3, 89, 59);
+    border-radius: 25px; 
+    height: 500px;
+}
+
 section.landing {
     display: grid;
     place-items: center;
@@ -179,13 +194,6 @@ section.landing {
     top: 5rem;
     padding-bottom: 14rem;
     height: 100vh;
-}
-
-#particles-js {
-    overflow: hidden;
-    background: var(--color-success);
-    border-radius: 25px; 
-    height: 500px;
 }
 
 section.landing .container {
@@ -220,35 +228,10 @@ section.landing .socials a:hover {
     color: var(--color-white);
 }
 
-#particles-js:hover {
-    animation: effect linear 2s;
-}
-
-#highlight {
-    font-size: 72px;
-    background: -webkit-linear-gradient(90deg, #d53369 0%, #daae51 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-@keyframes effect {
-    0% {
-        transform: scale(1, 1);
-    }
-    25% {
-        transform: scale(1.3, 0.6);
-    }
-    50% {
-        transform: scale(1.1, 0.9);
-    }
-    100% {
-        transform: scale(1, 1);
-    }
-}
-
 section.landing .info h1 {
     text-align: left;
     margin: 0;
+    color: var(--color-white);
 }
 
 section.landing h3 {
@@ -272,12 +255,6 @@ section.landing .profile-area .outer-circle {
     border-radius: 50%;
     position: relative;
     animation: move 30s linear infinite;
-}
-
-@keyframes move {
-    to {
-        transform: rotate(360deg);
-    }
 }
 
 section.landing .profile-area .outer-circle span {
@@ -320,6 +297,27 @@ section.landing .profile-area .inner-circle {
     height: 18rem;
     border-radius: 50%;
     overflow: hidden;
+}
+
+@keyframes move {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* @keyframes effect { 
+    0% {
+        transform: scale(1, 1);
+    }
+    25% {
+        transform: scale(1.3, 0.6);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
 }
 
 /* ==================  ABOUT SECTION ======================== */

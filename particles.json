@@ -1,7 +1,7 @@
 {
     "particles":{
         "number":{
-            "value":400
+            "value":150
         },
         "color":{
             "value":"#fff"
@@ -9,11 +9,11 @@
         "shape":{
             "type":"square",
             "stroke":{
-                "width":4,
+                "width":50,
                 "color":"#ccc"
             },
             "image":{
-                "src":"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.diaperguide.biz%2Fl-m%2F10-pack-cute-diaper-printed-bear-colors-v-1472740636.jpg&f=1&nofb=1"
+                "src":""
             }
         },
         "opacity":{
@@ -21,7 +21,7 @@
             "random":true,
             "anim":{
                 "enable":true,
-                "speed":1
+                "speed":0.2
             }
         },
         "size":{
@@ -29,7 +29,7 @@
             "random":false,
             "anim":{
                 "enable": false,
-                "speed":30
+                "speed":2
             }
         },
         "line_linked":{
@@ -40,7 +40,7 @@
         },
         "move":{
             "enable":true,
-            "speed":2,
+            "speed":5,
             "direction":"none",
             "straight":false
         }
