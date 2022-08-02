@@ -475,6 +475,12 @@ section.recent-work .projects .project {
    
 }
 
+section.recent-work .projects .project p {
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+
 section.recent-work .projects .project .action {
     display: flex;
     gap: 2rem;
