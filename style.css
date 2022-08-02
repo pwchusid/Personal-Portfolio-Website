@@ -160,6 +160,8 @@ nav .container ul li a {
     color: var(--color-black);
     position: relative;
     transition: var(--transition);
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 nav .container ul li a:hover {
@@ -685,6 +687,12 @@ footer .container h3 {
     }
 
     /* =============== LANDING SECTION ================ */
+    
+    #highlight {
+        font-size: 50px;
+        height: 750px;
+    }
+    
     section.landing {
         margin-top: -4rem;
         padding-bottom: 7rem;
