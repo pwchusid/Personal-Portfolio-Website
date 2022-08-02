@@ -466,6 +466,8 @@ section.recent-work .projects .project .action {
 
 section.recent-work .projects .project .action a {
     color: var(--color-primary);
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 section.recent-work .projects .project .action a:hover {
@@ -600,6 +602,10 @@ footer .copyright {
     margin-top: 5rem;
     padding: 2rem 0;
     font-size: 0.8rem;
+}
+
+footer .container h3 {
+    color: var(--color-primary);
 }
 
 /* ======================= MEDIA QUIERIES (MOBILE) ==================== */
