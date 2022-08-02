@@ -397,6 +397,10 @@ section.services {
     background: var(--color-light);
 }
 
+section.services .container .service p {
+    font-weight: 500;
+}
+
 section.services .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
