@@ -182,9 +182,16 @@ nav .container ul li a.active {
 #particles-js {
     overflow: hidden;
     background:rgba(0, 0, 0, 0.7);
-    border: 10px solid rgb(3, 89, 59);
+    border: 8px solid rgb(3, 89, 59);
     border-radius: 25px; 
     height: 500px;
+    max-width: 90%;
+    padding-left: 20px;
+}
+
+section.landing .landing-subtag {
+    font-size: 40px;
+    color: var(--color-white);
 }
 
 section.landing {
