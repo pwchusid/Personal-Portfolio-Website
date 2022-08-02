@@ -5,10 +5,12 @@
     --color-dark: #525252;
     --color-black: #141415;
     --color-primary: #047b44;
-    --color-primary-light: hsl(14, 89%, 53%, 12%);
+    --color-primary-light: rgba(28, 242, 53, 0.12);
     --color-success: #29f5a6;
     --color-warning: #ffce31;
+    --color-original: #f24e1e;
     --transition: all 300ms ease;
+    --color-primary-lightog: hsl(14, 89%, 53%, 12%);
 }
 
 * {
@@ -360,6 +362,8 @@ section.about .container .read-more {
     margin: 1rem 0 2rem;
     color: var(--color-primary);
     cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 section.about .container .read-more:hover {
@@ -382,6 +386,11 @@ section.skills .grid-skill {
 
 section.skills .item {
     box-shadow: 0 0 1rem var(--color-dark);
+}
+
+section.skills .item:hover {
+    box-shadow: 0 3rem 3rem var(--color-primary-light);
+    border: 1px solid rgba(20, 240, 20, 0.264);
 }
 
 section.skills h3 {
@@ -426,7 +435,7 @@ section.services .container .service:hover {
 }
 
 section.services .container .service span {
-    background: var(--color-primary);
+    background: var(--color-original);
     width: 4rem;
     height: 4rem;
     margin: 0 auto;
