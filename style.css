@@ -162,6 +162,7 @@ nav .container ul li a {
     transition: var(--transition);
     font-weight: 500;
     font-size: 1.1rem;
+    letter-spacing: 1px;
 }
 
 nav .container ul li a:hover {
