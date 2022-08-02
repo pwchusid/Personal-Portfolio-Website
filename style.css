@@ -247,6 +247,7 @@ section.landing .info h1 {
 }
 
 section.landing h3 {
+    text-align: left;
     margin: 2.4rem 0 1rem;
 }
 
@@ -460,6 +461,10 @@ section.recent-work h1 {
     text-align: left;
     margin: 3rem 0 1rem;
     width: 65%;
+}
+
+section.recent-work h4 {
+    font-size: 1.4rem;
 }
 
 section.recent-work .projects {
