@@ -794,6 +794,12 @@ footer .container h3 {
         text-align: center;
     }
 
+    section.about p {
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
         /* ================== SKILLS SECTION ============= */
 
     
