@@ -501,6 +501,11 @@ section.services .container .service:nth-child(3) span {
 
 /* ====================== RECENT WORK (PORTFOLIO) ================ */
 
+section.recent-work .folioimg {
+    max-width: 750px;
+    max-height: 435px;
+}
+
 section.recent-work h1 {
     text-align: left;
     margin: 3rem 0 1rem;
